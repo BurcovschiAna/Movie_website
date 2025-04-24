@@ -1,4 +1,3 @@
-# Movie_website
 <h1>MovieMatrix Project</h1>
 <h2>Overview</h2>
 <p>MovieMatrix is a web application designed for movie enthusiasts to browse, search, and watch movies across various genres. It features a user-friendly interface, a slideshow for featured movies, a contact form, and a rating system for user feedback.</p>
