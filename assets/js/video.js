@@ -213,7 +213,7 @@ $(document).ready(function () {
         $("#movie-img").attr("src", allMovies[movieIndex].moviePoster); // Set movie poster
         $("#movie-name").text(allMovies[movieIndex].movieName); // Set movie name
         $("#rating-number").text(allMovies[movieIndex].movieRating); // Set movie rating
-
+        $("#video-src").attr("src", allMovies[movieIndex].moviePath)
         let stars = '';
         const fullStars = Math.floor(allMovies[movieIndex].movieRating); // Calculate full stars
         const halfStar = allMovies[movieIndex].movieRating % 1 !== 0; // Check for half star
