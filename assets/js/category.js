@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    const allMovies = JSON.parse(localStorage.getItem("movies"))
     const itemsPerPage = 12; // Number of items to display per page
     let currentPage = 1; // Initialize the current page
     let filteredMovies = allMovies; // Store the filtered list of movies

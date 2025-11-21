@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    let allMovies = JSON.parse(localStorage.getItem("movies"));    
     // * Menu
     $(".burger-menu").on("click", function () {
         $(this).toggleClass("open"); // Toggle the burger menu's open class

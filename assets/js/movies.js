@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    const allMovies = JSON.parse(localStorage.getItem("movies"))
     const itemsPerPage = 12; // Set the number of movie items to display per page
     let currentPage = 1;  // Initialize the current page to 1
     let pages = Math.ceil(allMovies.length / itemsPerPage); // Calculate the total number of pages based on allMovies length
